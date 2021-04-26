@@ -1,0 +1,210 @@
+#google-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 42%;
+  height: 6em;
+  width: 17em;
+}
+
+#index-link {
+  display: inline-block;
+  margin-left: 35em;
+  margin-top: 5em;
+}
+
+#search-bar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  width: 38em;
+  height: 42px;
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(219, 218, 218);
+}
+
+#google-search-bar {
+  display: block;
+  margin-left: auto;
+  margin-right: 20px;
+  padding: 0px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  width: 550px;
+  height: 40px;
+  font-size: 16px;
+  border-style: hidden;
+  border-width: 1px;
+  border-color: rgb(219, 218, 218);
+  float: right;
+}
+
+#google-search-bar:focus {
+  outline-width: 0;
+}
+
+#search-bar:hover {
+  box-shadow: 1px 1px 5px rgb(182, 182, 182);
+}
+
+#nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin: 20px 20px;
+}
+
+.store-about-nav {
+  display: inline;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+#about {
+  text-decoration: none;
+  margin-right: 15px;
+  color: rgb(36, 36, 36);
+}
+
+#store {
+  text-decoration: none;
+  color: rgb(36, 36, 36);
+}
+
+.mail-images {
+  display: inline;
+  float: right;
+  margin-left: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+#gmail {
+  text-decoration: none;
+  color: rgb(36, 36, 36);
+  margin-top: px;
+}
+
+#images {
+  text-decoration: none;
+  color: rgb(36, 36, 36);
+  margin-left: 0px;
+}
+
+#mag-glass {
+  height: 14px;
+  width: 12px;
+  margin: 14px 0px 7px 12px;
+  border-radius: 0px;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 17px;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  background-color: rgb(238, 238, 238);
+  opacity: 0.7;
+  margin-right: 4px;
+}
+
+.adv-bus-search {
+  text-decoration: none;
+  color: rgb(36, 36, 36);
+  margin-left: 17px;
+}
+
+.priv-term-sett {
+  text-decoration: none;
+  color: rgb(36, 36, 36);
+  float: right;
+  margin-right: 17px;
+}
+
+#settings {
+  margin-right: 50px;
+}
+
+#search-button {
+  height: 20px;
+  padding: 10px;
+}
+
+#search {
+  text-decoration: none;
+  background-color: rgb(245, 245, 245);
+  padding: 5px;
+  border: none;
+  height: 35px;
+  width: 130px;
+  margin-right: 20px;
+  margin-left: 550px;
+  margin-top: 10px;
+  cursor: pointer;
+  opacity: 0.8;
+  border-radius: 5px;
+}
+
+#lucky-button {
+  text-decoration: none;
+  background-color: rgb(245, 245, 245);
+  padding: 5px;
+  border: none;
+  height: 35px;
+  width: 130px;
+  cursor: pointer;
+  opacity: 0.8;
+  border-radius: 5px;
+}
+
+#search:hover {
+  box-shadow: 1px 1px rgb(182, 182, 182);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(219, 218, 218);
+}
+
+#lucky-button:hover {
+  box-shadow: 1px 1px rgb(182, 182, 182);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(219, 218, 218);
+}
+
+#sign-ip-button {
+  text-decoration: none;
+  background-color: rgb(0, 110, 255);
+  color: white;
+  border: none;
+  padding: 7px 15px;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 15px;
+  margin-top: -7px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+#app:hover {
+  background-color: rgb(223, 223, 223);
+  border-radius: 50%;
+  border-width: 0px;
+  padding: 2px;
+}
+
+#advertising:hover,
+#settings:hover,
+#how-search-works:hover,
+#privacy:hover,
+#business:hover,
+#terms:hover {
+  text-decoration: underline;
+}
